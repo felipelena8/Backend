@@ -1,0 +1,9 @@
+extends ../index.pug
+block content 
+    ul 
+        each prod in productos
+            li
+                div
+                    img(src=prod.thumbnail)
+                    h4=prod.title 
+                    p=prod.price
