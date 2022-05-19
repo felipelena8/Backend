@@ -1,0 +1,13 @@
+<ul>
+    <% productos.forEach(function(prod) {%>
+        
+    
+        <li>
+            <div>
+                <img src=<%=prod.thumbnail%> alt="">
+                <h4><%=prod.title%></h4>
+                <p><%=prod.price%></p>
+            </div>
+        </li>
+    <% }) %> 
+</ul>
