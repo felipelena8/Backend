@@ -1,0 +1,61 @@
+*{
+    color: white;
+}
+#inputs{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 150px;
+}
+button{
+    color: black;
+}
+input{
+    color: black;
+}
+body{
+    background: rgb(58, 58, 58);
+}
+h1{
+    color: rgb(11, 156, 156);
+}
+table{
+    border: 1px solid black;
+    width: 50%;
+    display: flex;
+  
+}
+tbody{
+    margin: 0px 30px;
+    width: 100%;
+    
+}
+td{
+    margin-top:  1rem;
+}
+tr{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+img{
+    width: 50px;
+    height: 50px;
+}
+#chat{
+    width: 50%;
+}
+.message{
+    margin: 0px;
+}
+.userMessage{
+    font-weight: bold;
+    color: blue;
+}
+.timeMessage{
+    color: brown;
+}
+.textMessage{
+    font: italic;
+    color: green;
+}
